@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{27E3B7BB-7210-4DB8-2CDE-8C5F9221D3B6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameOverWindow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PauseWindow.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameHandler.cs" Line="48" Column="37" />
-      <File FileName="Assets/Scripts/Loader.cs" Line="35" Column="41" />
-      <File FileName="Assets/Scripts/LoaderCallback.cs" Line="9" Column="24" />
-      <File FileName="Assets/Scripts/GameOverWindow.cs" Line="11" Column="6" />
-      <File FileName="Assets/Scripts/Snake.cs" Line="151" Column="34" />
+      <File FileName="Assets/Scripts/GameHandler.cs" Line="53" Column="24" />
+      <File FileName="Assets/Scripts/MainMenuWindow.cs" Line="8" Column="25" />
+      <File FileName="Assets/Scripts/PauseWindow.cs" Line="27" Column="6" />
+      <File FileName="Assets/Scripts/Loader.cs" Line="13" Column="17" />
+      <File FileName="Assets/Scripts/GameOverWindow.cs" Line="22" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +13,7 @@
           <Node name="Snake" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="GameOverWindow.cs" selected="True" />
+                <Node name="PauseWindow.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -23,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="01924334-f269-492b-968f-6323877553b0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f1bef826-6a32-4b00-800e-a10562add351" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
