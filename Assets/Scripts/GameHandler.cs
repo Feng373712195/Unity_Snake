@@ -15,7 +15,7 @@ public class GameHandler : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        InitializeStatic();
+        Score.InitializeStatic();
     }
 
     // Start is called before the first frame update
@@ -45,22 +45,10 @@ public class GameHandler : MonoBehaviour
         }
     }
 
-    private static void InitializeStatic()
-    {
-        score = 0;
-    }
-
-    public static int GetScore()
-    {
-        return score;
-    }
-    public static void AddScore()
-    {
-        score += 100;
-    }
 
     public static void SnakeDied()
     {
+        Score.TrySetNewHighscore();
         GameOverWindow.ShowStatic();
     }
 

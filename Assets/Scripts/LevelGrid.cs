@@ -44,7 +44,7 @@ public class LevelGrid : MonoBehaviour
             Object.Destroy(foodGameObject);
             SpawnFood();
 
-            GameHandler.AddScore();
+            Score.AddScore();
             return true;
         }
         return false;
